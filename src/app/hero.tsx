@@ -10,18 +10,16 @@ function Hero() {
     <div className="grid min-h-screen px-8">
       <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
         <Typography variant="h3" color="white" className="mb-2">
-          29-31 August @ New York
         </Typography>
         <Typography variant="h1" color="white" className="lg:max-w-3xl">
-          AI Conference 2023: Unlocking the Future
+          Blockchain Adoption, one project at a time
         </Typography>
         <Typography
           variant="lead"
           color="white"
           className="mt-1 mb-12 w-full md:max-w-full lg:max-w-2xl"
         >
-          Join us for the most anticipated event of the year - the AI
-          Conference 2023!
+          First ever flat fee premium ecosystem. No token. Guaranteed Allocation. Fully Refundable.
         </Typography>
         <div className="flex items-center gap-4">
           <Button variant="gradient" color="white">
