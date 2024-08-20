@@ -94,7 +94,7 @@ export function Navbar() {
         <Image
           width={205}
           height={90}
-          src={isScrolling ? "/logos/logo-polo2.png" : "/logos/logo-polo-dark.png"}
+          src={isScrolling ? "/logos/logo-polo.png" : "/logos/logo-polo-dark.png"}
           alt="Polo Ventures"
           className="hidden lg:block"/>
         <ul
