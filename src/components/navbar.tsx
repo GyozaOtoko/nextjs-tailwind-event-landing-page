@@ -43,10 +43,6 @@ const NAV_MENU = [
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
-  },
-  {
     name: "Docs",
     icon: CommandLineIcon,
     href: "https://www.material-tailwind.com/docs/react/installation",
@@ -98,9 +94,9 @@ export function Navbar() {
         <Image
           width={205}
           height={90}
-          src="/logos/logo-polo.png"
+          src={isScrolling ? "/logos/logo-polo2.png" : "/logos/logo-polo-dark.png"}
           alt="Polo Ventures"
-          className="hidden"/>
+          className="hidden lg:block"/>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
             isScrolling ? "text-gray-900" : "text-white"
